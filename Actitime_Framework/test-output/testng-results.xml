@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T10:05:05 IST" name="Suite" finished-at="2022-09-30T10:05:17 IST" duration-ms="12451">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T10:05:05 IST" name="Test" finished-at="2022-09-30T10:05:17 IST" duration-ms="12451">
+      <class name="scripts.actiLoginScript">
+        <test-method is-config="true" signature="setPath()[pri:0, instance:scripts.actiLoginScript@323b36e0]" started-at="2022-09-30T10:05:05 IST" name="setPath" finished-at="2022-09-30T10:05:05 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPath -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:scripts.actiLoginScript@323b36e0]" started-at="2022-09-30T10:05:05 IST" name="launchBrowser" finished-at="2022-09-30T10:05:17 IST" duration-ms="12067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="actiLoginScript()[pri:0, instance:scripts.actiLoginScript@323b36e0]" started-at="2022-09-30T10:05:17 IST" name="actiLoginScript" finished-at="2022-09-30T10:05:17 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actiLoginScript -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:scripts.actiLoginScript@323b36e0]" started-at="2022-09-30T10:05:17 IST" name="closeBrowser" finished-at="2022-09-30T10:05:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="killDriver()[pri:0, instance:scripts.actiLoginScript@323b36e0]" started-at="2022-09-30T10:05:18 IST" name="killDriver" finished-at="2022-09-30T10:05:18 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- scripts.actiLoginScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

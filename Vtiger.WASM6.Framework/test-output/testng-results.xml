@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1815" started-at="2022-11-05T20:13:00 IST" finished-at="2022-11-05T20:13:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1815" started-at="2022-11-05T20:13:00 IST" finished-at="2022-11-05T20:13:02 IST">
+      <class name="testNg.Practice.DpClass">
+        <test-method status="PASS" signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testNg.Practice.DpClass@4de5031f]" name="printData" duration-ms="8" started-at="2022-11-05T20:13:02 IST" data-provider="organizationData" finished-at="2022-11-05T20:13:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Team]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Player]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method status="PASS" signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testNg.Practice.DpClass@4de5031f]" name="printData" duration-ms="1" started-at="2022-11-05T20:13:02 IST" data-provider="organizationData" finished-at="2022-11-05T20:13:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RCB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kohli]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method status="PASS" signature="printData(java.lang.String,java.lang.String)[pri:0, instance:testNg.Practice.DpClass@4de5031f]" name="printData" duration-ms="2" started-at="2022-11-05T20:13:02 IST" data-provider="organizationData" finished-at="2022-11-05T20:13:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohith Sharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+      </class> <!-- testNg.Practice.DpClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

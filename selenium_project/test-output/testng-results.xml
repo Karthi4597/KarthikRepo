@@ -2,27 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8896" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:39 IST">
+  <suite name="Suite" duration-ms="22148" started-at="2022-11-12T19:54:25 IST" finished-at="2022-11-12T19:54:47 IST">
     <groups>
     </groups>
-    <test name="firefoxTest" duration-ms="3115" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:33 IST">
-      <class name="testNg_practice.k4">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNg_practice.k4@396e2f39]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:testNg_practice.k4@396e2f39]" name="beforetest" is-config="true" duration-ms="6" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:30 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="FAIL" signature="BeforeMethod(java.lang.String)[pri:0, instance:testNg_practice.k4@396e2f39]" name="BeforeMethod" is-config="true" duration-ms="3035" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:33 IST">
+    <test name="FirefoxTest" duration-ms="4171" started-at="2022-11-12T19:54:25 IST" finished-at="2022-11-12T19:54:29 IST">
+      <class name="testNg_programs.p10">
+        <test-method status="FAIL" signature="precondition(java.lang.String)[pri:0, instance:testNg_programs.p10@13eb8acf]" name="precondition" is-config="true" duration-ms="4083" started-at="2022-11-12T19:54:25 IST" finished-at="2022-11-12T19:54:29 IST">
           <params>
             <param index="0">
               <value>
@@ -34,14 +19,14 @@
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-OLV808IP', ip: '192.168.100.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'LAPTOP-OLV808IP', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-OLV808IP', ip: '192.168.100.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'LAPTOP-OLV808IP', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
@@ -56,7 +41,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
-at testNg_practice.k4.BeforeMethod(k4.java:31)
+at testNg_programs.p10.precondition(p10.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -89,20 +74,20 @@ at java.lang.Thread.run(Unknown Source)
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="SKIP" signature="Script()[pri:0, instance:testNg_practice.k4@396e2f39]" name="Script" duration-ms="0" started-at="2022-11-01T22:33:33 IST" finished-at="2022-11-01T22:33:33 IST">
+        </test-method> <!-- precondition -->
+        <test-method status="SKIP" signature="actiLoginScript()[pri:0, instance:testNg_programs.p10@13eb8acf]" name="actiLoginScript" duration-ms="0" started-at="2022-11-12T19:54:29 IST" finished-at="2022-11-12T19:54:29 IST">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-OLV808IP', ip: '192.168.100.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'LAPTOP-OLV808IP', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-OLV808IP', ip: '192.168.100.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'LAPTOP-OLV808IP', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:144)
@@ -117,7 +102,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:110)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
-at testNg_practice.k4.BeforeMethod(k4.java:31)
+at testNg_programs.p10.precondition(p10.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -150,24 +135,16 @@ at java.lang.Thread.run(Unknown Source)
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Script -->
-        <test-method status="SKIP" signature="aftermethod()[pri:0, instance:testNg_practice.k4@396e2f39]" name="aftermethod" is-config="true" duration-ms="-1667322213538" started-at="2022-11-01T22:33:33 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- actiLoginScript -->
+        <test-method status="SKIP" signature="postcondition()[pri:0, instance:testNg_programs.p10@13eb8acf]" name="postcondition" is-config="true" duration-ms="-1668263069689" started-at="2022-11-12T19:54:29 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method status="SKIP" signature="afterTest(java.lang.String)[pri:0, instance:testNg_practice.k4@396e2f39]" name="afterTest" is-config="true" duration-ms="-1667322213545" started-at="2022-11-01T22:33:33 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:testNg_practice.k4@396e2f39]" name="afterSuite" is-config="true" duration-ms="-1667322219344" started-at="2022-11-01T22:33:39 IST" finished-at="1970-01-01T05:30:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testNg_practice.k4 -->
-    </test> <!-- firefoxTest -->
-    <test name="chromeTest" duration-ms="8896" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:39 IST">
-      <class name="testNg_practice.k4">
-        <test-method status="PASS" signature="beforetest(java.lang.String)[pri:0, instance:testNg_practice.k4@1060b431]" name="beforetest" is-config="true" duration-ms="8" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:30 IST">
+        </test-method> <!-- postcondition -->
+      </class> <!-- testNg_programs.p10 -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="22146" started-at="2022-11-12T19:54:25 IST" finished-at="2022-11-12T19:54:47 IST">
+      <class name="testNg_programs.p10">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:testNg_programs.p10@32d2fa64]" name="precondition" is-config="true" duration-ms="5167" started-at="2022-11-12T19:54:25 IST" finished-at="2022-11-12T19:54:30 IST">
           <params>
             <param index="0">
               <value>
@@ -177,38 +154,16 @@ at java.lang.Thread.run(Unknown Source)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.String)[pri:0, instance:testNg_practice.k4@1060b431]" name="BeforeMethod" is-config="true" duration-ms="4104" started-at="2022-11-01T22:33:30 IST" finished-at="2022-11-01T22:33:34 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="actiLoginScript()[pri:0, instance:testNg_programs.p10@32d2fa64]" name="actiLoginScript" duration-ms="16242" started-at="2022-11-12T19:54:30 IST" finished-at="2022-11-12T19:54:46 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Script()[pri:0, instance:testNg_practice.k4@1060b431]" name="Script" duration-ms="4597" started-at="2022-11-01T22:33:34 IST" finished-at="2022-11-01T22:33:39 IST">
+        </test-method> <!-- actiLoginScript -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:testNg_programs.p10@32d2fa64]" name="postcondition" is-config="true" duration-ms="673" started-at="2022-11-12T19:54:46 IST" finished-at="2022-11-12T19:54:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Script -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:testNg_practice.k4@1060b431]" name="aftermethod" is-config="true" duration-ms="137" started-at="2022-11-01T22:33:39 IST" finished-at="2022-11-01T22:33:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:testNg_practice.k4@1060b431]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-11-01T22:33:39 IST" finished-at="2022-11-01T22:33:39 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testNg_practice.k4 -->
-    </test> <!-- chromeTest -->
+        </test-method> <!-- postcondition -->
+      </class> <!-- testNg_programs.p10 -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -4,6 +4,11 @@
   <artifactId>Vtiger.WASM6.Framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+ <properties>
+<maven.compiler.source>1.8</maven.compiler.source> 
+<maven.compiler.target>1.8</maven.compiler.target>
+</properties> 
+  
   <dependencies>
   <!-- This tool is used to automate web applications.. -->
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -54,6 +59,23 @@
     <version>7.6.1</version>
     <scope>test</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports --> 
+<dependency>
+ <groupId>com.aventstack</groupId> 
+ <artifactId>extentreports</artifactId>
+  <version>5.0.9</version> 
+</dependency>
+
+
+
+<dependency>
+ <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+   <version>1.18.24</version> 
+   <scope>provided</scope> 
+</dependency>
+
 
   </dependencies>
 </project>

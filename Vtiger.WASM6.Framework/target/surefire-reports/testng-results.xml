@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="vTiger.OrganizationsTests.CreateOrganizationTest" duration-ms="13" started-at="2022-11-21T10:16:17 IST" finished-at="2022-11-21T10:16:17 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13" started-at="2022-11-21T10:16:17 IST" finished-at="2022-11-21T10:16:17 IST">
+    </test> <!-- Command line test -->
+  </suite> <!-- vTiger.OrganizationsTests.CreateOrganizationTest -->
+</testng-results>

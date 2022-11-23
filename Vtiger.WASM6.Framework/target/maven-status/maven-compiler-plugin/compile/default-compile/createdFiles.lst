@@ -1,0 +1,14 @@
+vTiger\ObjectRepository\LoginPage.class
+vTiger\genericLibrary\WebDriverLibrary.class
+vTiger\ObjectRepository\CreateOrganization.class
+vTiger\ObjectRepository\OrganizationPage.class
+vTiger\genericLibrary\k1.class
+vTiger\genericLibrary\ExtentsReportClass.class
+vTiger\genericLibrary\JavaLibrary.class
+vTiger\genericLibrary\PropertyFileLibrary.class
+vTiger\ObjectRepository\initialPages.class
+vTiger\genericLibrary\ExcelFileLibrary.class
+vTiger\genericLibrary\IConstantLibrary.class
+vTiger\ObjectRepository\HomePage.class
+vTiger\genericLibrary\BaseTest.class
+vTiger\ObjectRepository\Practice.class
